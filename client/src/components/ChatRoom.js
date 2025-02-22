@@ -11,7 +11,7 @@ import { useAuth } from '../contexts/AuthContext';
 import path from 'path-browserify';
 import './ChatRoom.css';
 import api from '../api';
-import { useSwipeable } from 'react-swipeable';
+
 import { Edit2, Trash2, X, Send } from 'lucide-react';
 
 
