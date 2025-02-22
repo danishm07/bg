@@ -1,0 +1,102 @@
+.document-post {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.document-post h3 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.document-post form {
+    display: flex;
+    flex-direction: column;
+}
+
+.document-post textarea,
+.document-post input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.document-post textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.document-post input[type="file"] {
+    margin-bottom: 15px;
+}
+
+.document-post button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.document-post button:hover {
+    background-color: #357abd;
+}
+
+.file-input-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.file-input-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.file-input-wrapper .file-input-button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 12px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.file-name-display {
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.tags-input {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tag {
+    background-color: #e1ecf4;
+    border-radius: 2px;
+    color: #39739d;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    margin: 2px;
+    padding: 4px 6px;
+}
+
+.tag .remove-tag {
+    cursor: pointer;
+    margin-left: 4px;
+}

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "noImplicitAny": false,
+      "noEmit": true,
+      "allowImportingTsExtensions": true,
+      "jsx": "react-jsx",
+      "strict": true,
+      "baseUrl": "./",
+      "paths": {
+        "@/*": ["src/*"],
+        //"@/*": ["./*"]
+      }
+    }
+  }
