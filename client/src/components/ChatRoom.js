@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { io } from 'socket.io-client';
 import { useAuth } from '../contexts/AuthContext';
-import Lightbox from 'react-image-lightbox';
-import 'react-image-lightbox/style.css';
+
+
 import path from 'path-browserify';
 import './ChatRoom.css';
 import api from '../api';
